@@ -52,6 +52,7 @@ Ketik kata kunci di kolom pencarian (🔍) untuk mencari berdasarkan kategori at
 
 ### 6. Filter Transaksi
 Klik tombol filter:
+
 - **Semua** — Tampilkan semua transaksi
 - **↑ Pemasukan** — Tampilkan hanya pemasukan
 - **↓ Pengeluaran** — Tampilkan hanya pengeluaran
@@ -70,10 +71,10 @@ Klik tombol filter:
 
 ```
 expenseTracker/
-├── index.html    → Halaman utama
-├── style.css     → Desain & tampilan
-├── script.js     → Logika aplikasi
-└── README.md     → Panduan ini
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
 ---
@@ -88,10 +89,140 @@ expenseTracker/
 ## 🛠️ Teknologi
 
 - HTML5
-- CSS3 (Dark Glassmorphism)
+- CSS3
 - JavaScript (Vanilla)
-- [Font Awesome](https://fontawesome.com/) — Ikon
-- [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter) — Tipografi
+- Font Awesome — Ikon
+- Google Fonts (Inter) — Tipografi
+
+---
+
+# 🌐 Upload ke GitHub
+
+Ikuti langkah berikut untuk menyimpan project di GitHub.
+
+## 1. Buat Repository Baru
+
+1. Buka https://github.com
+2. Klik **New Repository**
+3. Isi nama repository, contoh:
+
+```
+expense-tracker
+```
+
+4. Klik **Create Repository**
+
+---
+
+## 2. Upload Project
+
+Cara paling mudah (tanpa Git):
+
+1. Masuk ke repository
+2. Klik **Add file**
+3. Pilih **Upload files**
+4. Upload semua file project:
+
+```
+index.html
+style.css
+script.js
+README.md
+```
+
+5. Klik **Commit changes**
+
+---
+
+# 🌍 Deploy dengan GitHub Pages
+
+GitHub Pages memungkinkan website HTML berjalan gratis.
+
+## 1. Masuk ke Settings
+
+1. Buka repository
+2. Klik **Settings**
+3. Pilih menu **Pages**
+
+---
+
+## 2. Aktifkan GitHub Pages
+
+Pada bagian **Source** pilih:
+
+```
+Branch: main
+Folder: /root
+```
+
+Klik **Save**
+
+---
+
+## 3. Akses Website
+
+Setelah beberapa detik website akan aktif di:
+
+```
+https://username.github.io/expense-tracker
+```
+
+Ganti **username** dengan username GitHub kamu.
+
+---
+
+# ⚡ Deploy ke Vercel
+
+Alternatif hosting gratis lainnya adalah menggunakan **Vercel**.
+
+## 1. Login ke Vercel
+
+1. Buka https://vercel.com
+2. Login menggunakan akun **GitHub**
+
+---
+
+## 2. Import Project
+
+1. Klik **Add New Project**
+2. Pilih repository **expense-tracker**
+3. Klik **Deploy**
+
+Karena project ini hanya menggunakan **HTML, CSS, dan JavaScript**, tidak perlu konfigurasi tambahan.
+
+---
+
+## 3. Website Siap Digunakan
+
+Setelah deploy selesai, Vercel akan memberikan link seperti:
+
+```
+https://expense-tracker.vercel.app
+```
+
+Website kamu sudah bisa diakses secara online.
+
+---
+
+## 💡 Tips
+
+Jika ingin mengubah domain project di Vercel:
+
+1. Masuk ke **Project Settings**
+2. Pilih **Domains**
+3. Ubah nama domain sesuai keinginan
+
+Contoh:
+
+```
+money-tracker.vercel.app
+```
+
+---
+
+## 📜 Lisensi
+
+Project ini bebas digunakan untuk pembelajaran dan pengembangan pribadi.
 
 ---
 
